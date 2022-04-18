@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title> Projeto Slide</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="logo" href="#">LOGO</a>
+
+        <nav>
+            <a class="menu" href="#">MENU</a>
+            <a class="menu" href="#">SOBRE</a>
+            <a class="menu" href="#">CONTATO</a>
+        </nav>
+    </header>
+
+    <div class="slider">
+
+        <div class="slides">
+            <!-- Radio buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- Fim radio buttons -->
+
+            <!-- Imagens do Slide -->
+            <div class="slide first">
+                <img src="img/banner-demon-slayer.jpg" alt="Demon Slayer: Mugen Train">
+            </div>
+            <div class="slide">
+                <img src="img/banner-jujutsu-kaisen.jpg" alt="Jujust Kaisen 0">
+            </div>
+            <div class="slide">
+                <img src="img/banner-sonic-2.jpg" alt="Sonic 2">
+            </div>
+            <div class="slide">
+                <img src="img/banner-the-batman.jpg" alt="The Batman">
+            </div>
+            <!-- Fim das imagens do Slide -->
+
+            <!-- Navegação -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- Fim Navegação -->
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
