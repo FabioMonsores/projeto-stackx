@@ -7,6 +7,7 @@
 body {
   width: auto;
   height: 100vh;
+  background: rgb(46, 46, 46);
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -20,7 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: rgb(46, 46, 46);
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   padding: 10px;
 }
 
@@ -36,11 +37,23 @@ a {
 /* FIM CSS NAVBAR */
 
 /* CSS SLIDE */
+
+.mega-banner {
+  background: url("https://d128j1v7l5zqm9.cloudfront.net/vibezz_63913604.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .slider {
   margin: 0 auto;
   width: 800px;
   height: 400px;
   overflow: hidden;
+  border-radius: 4px;
+  /* border: 3px solid rgb(255, 255, 255); */
 }
 
 .slides {
