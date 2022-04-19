@@ -163,6 +163,27 @@ a {
   border-bottom: 1px solid white;
   margin-left: 20px;
 }
+
+.rated {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  display: inline;
+  color: wheat;
+}
+
+.rated span {
+  color: white;
+  background: orange;
+  padding: 2px;
+  border-radius: 4px;
+  text-align: right;
+  margin-left: 12px;
+}
 /* FIM CARTAZ */
 
 /* FILMES EM CARTAZ CSS */
@@ -191,8 +212,15 @@ a {
   margin-top: 50px;
 }
 
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+
 .breve span {
-  width: 800px;
+  width: 900px;
   border-bottom: 1px solid white;
   margin-left: 20px;
 }
@@ -208,5 +236,5 @@ a {
 }
 
 .filmes-breve img {
-  width: 300px;
+  width: 250px;
 }
