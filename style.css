@@ -102,11 +102,9 @@ a:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
 }
-
 /* FIM CSS NAVBAR */
 
 /* CSS SLIDE */
-
 .mega-banner {
   background: url("https://d128j1v7l5zqm9.cloudfront.net/vibezz_63913604.jpg");
   background-size: cover;
@@ -116,6 +114,7 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .slider {
   margin: 0 auto;
   width: 800px;
@@ -277,7 +276,6 @@ h5 {
   width: 250px;
   border: 2px solid orange;
 }
-
 /* FIM FILMES EM CARTAZ CSS */
 
 /* EM BREVE*/
@@ -379,5 +377,4 @@ h6 {
 .rodape {
   color: orange;
 }
-
 /* FIM CSS RODAPÉ */
