@@ -145,5 +145,68 @@ a {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background-color: #fff;
 }
-
 /* FIM CSS SLIDE */
+
+/* CARTAZ*/
+.cartaz {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(226, 226, 226);
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cartaz span {
+  width: 900px;
+  border-bottom: 1px solid white;
+  margin-left: 20px;
+}
+/* FIM CARTAZ */
+
+/* FILMES EM CARTAZ CSS */
+.filmes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.filmes img {
+  width: 350px;
+}
+/* FIM FILMES EM CARTAZ CSS */
+
+/* EM BREVE*/
+.breve {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(226, 226, 226);
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.breve span {
+  width: 800px;
+  border-bottom: 1px solid white;
+  margin-left: 20px;
+}
+/* FIM EM BREVE */
+
+.filmes-breve {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.filmes-breve img {
+  width: 300px;
+}
