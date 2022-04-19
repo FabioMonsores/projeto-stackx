@@ -147,7 +147,7 @@ a {
 }
 /* FIM CSS SLIDE */
 
-/* CARTAZ*/
+/* FILMES EM CARTAZ*/
 .cartaz {
   display: flex;
   flex-direction: row;
@@ -160,8 +160,15 @@ a {
 
 .cartaz span {
   width: 900px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(255, 174, 23);
   margin-left: 20px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 10pt;
+  margin-top: 10px;
 }
 
 .rated {
@@ -169,22 +176,23 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
-
 h5 {
   display: inline;
-  color: wheat;
+  color: rgb(252, 193, 33);
+  font-size: 11pt;
 }
 
 .rated span {
   color: white;
   background: orange;
-  padding: 2px;
+  padding: 5px;
   border-radius: 4px;
   text-align: right;
   margin-left: 12px;
 }
-/* FIM CARTAZ */
+/* FIM DOS FILMES CARTAZ */
 
 /* FILMES EM CARTAZ CSS */
 .filmes {
@@ -197,7 +205,8 @@ h5 {
 }
 
 .filmes img {
-  width: 350px;
+  width: 250px;
+  border: 2px solid orange;
 }
 /* FIM FILMES EM CARTAZ CSS */
 
@@ -219,13 +228,22 @@ h3 {
   margin-top: 10px;
 }
 
+.text-titulo {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  text-align: center;
+}
+
 .breve span {
   width: 900px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(255, 174, 23);
   margin-left: 20px;
 }
 /* FIM EM BREVE */
 
+/* FILMES EM BREVE */
 .filmes-breve {
   display: flex;
   flex-direction: row;
@@ -237,4 +255,51 @@ h3 {
 
 .filmes-breve img {
   width: 250px;
+  height: 350px;
+  border: 2px solid rgb(255, 255, 255);
 }
+/* FIM FILMES EM BREVE */
+
+/* TRAILERS CSS */
+.trailers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(226, 226, 226);
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.trailers span {
+  width: 900px;
+  border-bottom: 1px solid rgb(255, 174, 23);
+  margin-left: 20px;
+}
+
+.videos {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+iframe {
+  width: 520px;
+  height: 300px;
+  border: 1px solid rgb(255, 174, 23);
+}
+/*FIM TRAILERS CSS */
+
+/* CSS RODAPÉ */
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  background: rgb(50, 50, 50);
+  padding: 30px;
+}
+
+/* FIM CSS RODAPÉ */
